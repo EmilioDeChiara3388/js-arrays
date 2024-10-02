@@ -35,10 +35,8 @@ teachers.unshift("Sarah");
 
 // 7. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
-const isFabioPresent = teachers.indexOf("Fabio");
-if (isFabioPresent !== -1){
-  console.log(isFabioPresent);
-}
+const isFabioPresent = teachers.includes("Fabio");
+console.log(isFabioPresent);
 
 
 
