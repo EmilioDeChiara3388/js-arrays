@@ -15,8 +15,7 @@ console.log(fourthTeacher);
 
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
-let index = teachers.indexOf("Carlo");
-teachers.splice(index, 1, "Patrick");
+teachers[4] = "Patrick";
 console.log(teachers);
 
 
