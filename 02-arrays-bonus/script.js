@@ -21,3 +21,6 @@ console.log(longNames);
 
 
 // 3. Rimuovi 'Ed' dall'array teachers
+let teachersWithoutEd = teachers.filter(teachers => teachers !== "Ed");
+console.log(teachersWithoutEd);
+
